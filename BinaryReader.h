@@ -1,7 +1,7 @@
 /*
-	BinaryReader.h — fast lightweight binary reader library for C++
+	BinaryReader.h â€” fast lightweight binary reader single-header library for C++
 
-	Copyright (c) 2026 Max Müller
+	Copyright (c) 2026 Max MÃ¼ller
 	https://github.com/max8447/BinaryReader
 
 	MIT License
@@ -11,10 +11,6 @@
 
 class BinaryReader
 {
-public:
-
-private:
-
 	unsigned char* Data;
 	unsigned long long	Length;
 	unsigned long long	Position;
@@ -171,3 +167,4 @@ unsigned long long BinaryReader::ReadULongLong()
 {
 	return Read<unsigned long long>();
 }
+
