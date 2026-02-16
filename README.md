@@ -1,2 +1,2 @@
 # BinaryReader
-Fast lightweight binary reader library for C++
+Fast lightweight binary reader single-header library for C++
